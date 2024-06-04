@@ -1,0 +1,42 @@
+.healthy-food {
+  background-image: url("./assets/img/healthy-food.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 28em 0 16em 0;
+  
+  &_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 67em;
+    margin-left: auto;
+    @include media-breakpoint-down(md) {
+      width: auto;
+      text-align: center;
+    }
+  }
+
+  &_img {
+    width: 100%;
+  }
+
+  h1 {
+    color: #AB0505;
+    font-size: 6.4rem;
+    font-family: "DM Sans";
+    font-weight: 700;
+    word-wrap: break-word
+  }
+
+  p {
+    text-align: center;
+    color: black;
+    font-size: 3.2rem;
+    font-family: "DM Sans";
+    font-weight: 400;
+    word-wrap: "break-word";
+    padding: 2.6rem 0 6rem 0;
+  }
+}
+

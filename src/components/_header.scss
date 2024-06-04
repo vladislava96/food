@@ -1,0 +1,24 @@
+.header {
+  .navbar-nav {
+    font-family: "Playfair Display";
+  }
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+  }
+  &_phone-number-btn {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 2rem 4rem;
+  }
+  .nav-link span {
+    color: $nav-text;
+  }
+  #navbarScroll {
+    overflow-x: auto;
+  }
+}

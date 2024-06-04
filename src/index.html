@@ -13,14 +13,34 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="offcanvas d-lg-none offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ms-auto navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item me-10">
@@ -54,7 +74,7 @@
               </a>
             </li>
           </ul>
-          <button type="button" class="btn btn-primary btn__phone-number">
+          <button type="button" class="btn btn-primary header_phone-number-btn">
             <img src="./assets/icons/Phone Icone.svg">
             <span>+88012345678</span>
           </button>
@@ -64,5 +84,21 @@
       </div>
     </nav>
   </header>
+  <main>
+    <section class="healthy-food">
+      <div class="container">
+        <div class="healthy-food_title">
+          <h1>Healthy Food Recipes</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur 
+            inquam, illius tabulae, quam
+          </p>
+          <button type="button" class="btn btn-secondary btn__read-more" >
+            <span>Read more</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
