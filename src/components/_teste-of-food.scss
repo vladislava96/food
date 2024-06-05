@@ -1,0 +1,43 @@
+.teste-of-food {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 77px;
+  h2 {
+    margin-bottom: 76px;
+  }
+  .teste-of-food_card {
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    padding: 10px;
+
+    &:hover {
+      background-color: $secondary;
+    }
+
+    img {
+      border-radius: 20px;
+      margin-right: 19px;
+    }
+  }
+
+  .teste-of-food_text p {
+    color: black;
+    font-size: 4.8rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-bottom: 0;
+  }
+
+  .teste-of-food_text span {
+    color: black;
+    font-size: 3.2rem;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .btn__teste-of-food {
+    margin-top: 108px;
+  }
+}

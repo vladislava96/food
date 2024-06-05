@@ -1,6 +1,6 @@
 .blog {
   .carousel-control-prev, .carousel-control-next {
-    background-color: $slider-btn;
+    background-color: $context;
     border-radius: 50%;
     width: 66px;
     height: 66px;
@@ -13,7 +13,7 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    background-color: $slider-btn;
+    background-color: $context;
   }
   .carousel-indicators .active {
     background-color: $secondary;
