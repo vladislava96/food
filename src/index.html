@@ -30,13 +30,19 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Kitchen">Kitchen</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#Teste">Teste</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#Recipes">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -44,31 +50,31 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ms-auto navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item me-10">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="#Kitchen">
                 <img src="./assets/icons/Kitchen Icon.svg">
                 <span>Kitchen</span>
               </a>
             </li>
             <li class="nav-item me-10">
-              <a class="nav-link" aria-current="page" href="#">
+              <a class="nav-link" aria-current="page" href="#Teste">
                 <img src="./assets/icons/Teste Icon.svg">
                 <span>Teste</span>
               </a>
             </li>
             <li class="nav-item me-10">
-              <a class="nav-link" aria-current="page" href="#">
+              <a class="nav-link" aria-current="page" href="#Recipes">
                 <img src="./assets/icons/Recipes icon.svg">
                 <span>Recipes</span>
               </a>
             </li>
             <li class="nav-item me-10">
-              <a class="nav-link" aria-current="page" href="#">
+              <a class="nav-link" aria-current="page" href="#Blog">
                 <img src="./assets/icons/Blog Icon.svg">
                 <span>Blog</span>
               </a>
             </li>
             <li class="nav-item me-10">
-              <a class="nav-link" aria-current="page" href="#">
+              <a class="nav-link" aria-current="page" href="#Contact">
                 <img src="./assets/icons/Comments Icon.svg">
                 <span>Contact</span>
               </a>
@@ -85,7 +91,7 @@
     </nav>
   </header>
   <main>
-    <section class="healthy-food">
+    <section id="Kitchen" class="healthy-food">
       <div class="container">
         <div class="healthy-food_title">
           <h1>Healthy Food Recipes</h1>
@@ -99,7 +105,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section id="Teste" class="section">
       <h2>Teste of food</h2>
       <div class="container">
         <div class="teste-of-food row">
@@ -160,7 +166,7 @@
       </button>
       <div class="liner"></div>
     </section>
-    <section class="section">
+    <section id="Recipes" class="section">
       <h2>Recipes</h2>
       <div class="container">
         <div class="recipes">
@@ -181,7 +187,7 @@
       </button>
       <div class="liner"></div>
     </section>
-    <section class="blog">
+    <section id="Blog" class="blog">
       <h2>Blog</h2>
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide">
@@ -248,5 +254,53 @@
       </button>
     </section>
   </main>
+  <footer id="Contact" class="footer">
+    <div class="container">
+      <img class="footer_logo" src="./assets/icons/footer-logo.svg">
+      <div class="row ms-10">
+        <div class="col-lg-12 col-xl-4">
+          <div class="footer_description">
+            It is a long established fact that a
+            be distracted by the readable 
+            when looking at its layout.
+          </div>
+          <div class="footer_follow-us">Follow us</div>
+          <div class="footer_social-media">
+            <ul>
+              <li><a href=""><img src="./assets/icons/Vector (1).svg"></a></li>
+              <li><a href=""><img src="./assets/icons/Vector (3).svg"></a></li>
+              <li><a href=""><img src="./assets/icons/Vector (2).svg"></a></li>
+              <li><a href=""><img src="./assets/icons/Vector.svg"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <nav>
+            <ul>
+              <li><a class="link__active" href="">Home</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Services</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col">
+          <form action="" method="get">
+            <label for="message">Newsletter</label>
+            <input class="footer_message-input" type="text" name="message" id="message" required />
+            <input class="footer_message-submit btn" type="submit" value="Send" />
+          </form>
+          <div class="footer_payment">
+            <ul>
+              <li><a href=""><img src="./assets/icons/Paypal-logo-removebg-preview 1.svg"></a></li>
+              <li><a href=""><img src="./assets/icons/Mastercard-Logo-removebg-preview 1.svg"></a></li>
+              <li><a href=""><img src="./assets/icons/visa.svg"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

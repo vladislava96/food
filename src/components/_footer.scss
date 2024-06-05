@@ -1,0 +1,87 @@
+.footer {
+  background-color: $primary;
+  color: white;
+  font-size: 3.6rem;
+  padding: 3rem 0 14rem;
+  margin-top: 19rem;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin-right: 1.5rem;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  nav {
+    padding-left: 16rem;
+    @include media-breakpoint-down(xl) {
+      padding-left: 0;
+    }
+    @include media-breakpoint-down(md) {
+      margin-bottom: 5.5rem;
+    }
+    li {
+      display: block;
+    }
+    a {
+      color: #F3EBE7;
+    }
+    .link__active {
+      color: white;
+    }
+  }
+  &_description {
+    font-family: "Playfair Display";
+    font-size: 3.6rem;
+    font-weight: 400;
+  }
+  &_message-input {
+    display: block;
+    border: 3px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    @include media-breakpoint-down(sm) {
+      width: 90%
+    }
+  }
+  &_message-submit {
+    background-color: white;
+    color: $primary;
+    font-size: 3.6rem;
+    font-weight: 700; 
+    word-wrap: break-word;
+    padding: 0.6rem 2.5rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  label {
+    display: block;
+  }
+  &_social-media {
+    @include media-breakpoint-down(xl) {
+      display: inline-block;
+      margin-left: 2rem;
+    }
+  }
+  &_follow-us {
+    margin-top: 5.5rem;
+    @include media-breakpoint-down(xl) {
+      display: inline-block;
+      margin-bottom: 5.5rem;
+    }
+  }
+  &_payment {
+    margin-top: 60px;
+  }
+  &_logo {
+    @include media-breakpoint-down(lg) {
+      width: 40%
+    }
+  }
+}
